@@ -1,4 +1,5 @@
 inputs/*
+!inputs/0
 
 ### IntelliJ IDEA ###
 out/
