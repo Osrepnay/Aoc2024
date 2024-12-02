@@ -21,7 +21,6 @@ public class Day2Part2 {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner s = new Scanner(new File("inputs/2"));
         int safe = 0;
-        reportLoop:
         while (s.hasNextLine()) {
             List<Integer> nums = Arrays.stream(s.nextLine().split(" "))
                     .map(Integer::valueOf)
